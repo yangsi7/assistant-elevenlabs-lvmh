@@ -1,0 +1,812 @@
+{
+  "report_metadata": {
+    "generation_date": "Tuesday, November 4, 2025",
+    "period_start": "Wednesday, October 8, 2025",
+    "period_end": "Tuesday, November 4, 2025",
+    "user_profile": {
+      "age": 45,
+      "baseline_fitness": "good",
+      "typical_hr_range": "60-62 bpm",
+      "typical_bp_range": "122-128/82-85 mmHg",
+      "typical_sleep_duration": "7.5-8.0 hours",
+      "typical_sleep_quality": "80-88"
+    }
+  },
+  "personal_range_analysis": {
+    "today": "Tuesday, November 4, 2025",
+    "metrics": {
+      "heart_rate": {
+        "today": 68.0,
+        "typical_q1_q3": "60.0-62.0",
+        "category": "anomalously_high",
+        "delta_vs_yesterday": 6.0,
+        "delta_vs_avg": 5.1,
+        "clinical_range": "60-100 bpm (normal)",
+        "personal_significance": "8 bpm above personal baseline - indicates stress response"
+      },
+      "systolic_bp": {
+        "today": 134.0,
+        "typical_q1_q3": "122.0-128.0",
+        "category": "above_typical",
+        "delta_vs_avg": 4.1,
+        "clinical_range": "Stage 1 Hypertension (130-139 mmHg)",
+        "personal_significance": "6-12 mmHg above typical range"
+      },
+      "diastolic_bp": {
+        "today": 87.0,
+        "typical_q1_q3": "82.0-85.0",
+        "category": "above_typical",
+        "delta_vs_avg": 1.4,
+        "clinical_range": "Stage 1 Hypertension (80-89 mmHg)",
+        "personal_significance": "2-5 mmHg above typical range"
+      },
+      "afib_burden": {
+        "today": 0.0,
+        "typical_q1_q3": "0.0-0.0",
+        "category": "typical",
+        "delta_vs_yesterday": 0.0,
+        "delta_vs_avg": 0.0,
+        "clinical_significance": "Zero AFib burden - excellent cardiac rhythm"
+      },
+      "sleep_duration": {
+        "last_night": 6.0,
+        "typical_q1_q3": "7.5-8.0",
+        "category": "below_typical",
+        "delta_vs_avg": -1.7,
+        "clinical_range": "7-9 hours recommended",
+        "personal_significance": "1.5 hours below optimal, likely contributing to elevated HR/BP"
+      },
+      "sleep_quality": {
+        "last_night": 62,
+        "typical_q1_q3": "80-88",
+        "category": "poor",
+        "delta_vs_avg": -20,
+        "clinical_range": "70+ is good quality",
+        "personal_significance": "Poor quality preventing cardiovascular recovery"
+      }
+    }
+  },
+  "daily_data": [
+    {
+      "date": "Tuesday, November 4, 2025",
+      "day_of_week": "Tuesday",
+      "week": 4,
+      "hr": {"value": 68.0, "flag": "anomalously_high"},
+      "systolic": {"value": 134.0, "flag": "above_typical"},
+      "diastolic": {"value": 87.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.0,
+        "quality_score": 62,
+        "consistency_score": 58,
+        "deep_sleep_pct": 10.5,
+        "light_sleep_pct": 62.0,
+        "rem_sleep_pct": 17.5,
+        "awakenings": 4,
+        "time_to_sleep_min": 28,
+        "flag": "poor"
+      },
+      "notes": "Current day - Poor sleep (6h, quality 62) amplifying Tuesday stressor"
+    },
+    {
+      "date": "Monday, November 3, 2025",
+      "day_of_week": "Monday",
+      "week": 4,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.5,
+        "quality_score": 70,
+        "consistency_score": 65,
+        "deep_sleep_pct": 13.0,
+        "light_sleep_pct": 60.0,
+        "rem_sleep_pct": 19.0,
+        "awakenings": 3,
+        "time_to_sleep_min": 22,
+        "flag": "fair"
+      },
+      "notes": "Adequate sleep duration → HR returns to baseline"
+    },
+    {
+      "date": "Sunday, November 2, 2025",
+      "day_of_week": "Sunday",
+      "week": 4,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": 136.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 88.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.8,
+        "quality_score": 68,
+        "consistency_score": 62,
+        "deep_sleep_pct": 11.0,
+        "light_sleep_pct": 63.0,
+        "rem_sleep_pct": 17.5,
+        "awakenings": 5,
+        "time_to_sleep_min": 35,
+        "flag": "fair"
+      },
+      "notes": "Weekend - Longer duration but POOR quality (68) → BP remains elevated"
+    },
+    {
+      "date": "Saturday, November 1, 2025",
+      "day_of_week": "Saturday",
+      "week": 4,
+      "hr": {"value": 63.0, "flag": "above_typical"},
+      "systolic": {"value": 135.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 87.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.2,
+        "quality_score": 65,
+        "consistency_score": 60,
+        "deep_sleep_pct": 11.5,
+        "light_sleep_pct": 61.0,
+        "rem_sleep_pct": 18.0,
+        "awakenings": 4,
+        "time_to_sleep_min": 30,
+        "flag": "fair"
+      },
+      "notes": "Insufficient sleep continuing into weekend"
+    },
+    {
+      "date": "Friday, October 31, 2025",
+      "day_of_week": "Friday",
+      "week": 4,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": 128.0, "flag": "typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.8,
+        "quality_score": 72,
+        "consistency_score": 68,
+        "deep_sleep_pct": 12.5,
+        "light_sleep_pct": 60.0,
+        "rem_sleep_pct": 19.0,
+        "awakenings": 3,
+        "time_to_sleep_min": 20,
+        "flag": "fair"
+      },
+      "notes": "Improving sleep → metrics normalizing"
+    },
+    {
+      "date": "Thursday, October 30, 2025",
+      "day_of_week": "Thursday",
+      "week": 4,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.5,
+        "quality_score": 68,
+        "consistency_score": 65,
+        "deep_sleep_pct": 12.0,
+        "light_sleep_pct": 61.0,
+        "rem_sleep_pct": 18.5,
+        "awakenings": 3,
+        "time_to_sleep_min": 25,
+        "flag": "fair"
+      },
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Wednesday, October 29, 2025",
+      "day_of_week": "Wednesday",
+      "week": 4,
+      "hr": {"value": 63.0, "flag": "above_typical"},
+      "systolic": {"value": 126.0, "flag": "typical"},
+      "diastolic": {"value": 84.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.0,
+        "quality_score": 62,
+        "consistency_score": 58,
+        "deep_sleep_pct": 10.8,
+        "light_sleep_pct": 62.5,
+        "rem_sleep_pct": 17.0,
+        "awakenings": 4,
+        "time_to_sleep_min": 32,
+        "flag": "poor"
+      },
+      "notes": "Poor sleep → elevated HR despite normalizing BP"
+    },
+    {
+      "date": "Tuesday, October 28, 2025",
+      "day_of_week": "Tuesday",
+      "week": 3,
+      "hr": {"value": 64.0, "flag": "above_typical"},
+      "systolic": {"value": 135.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 87.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.5,
+        "quality_score": 68,
+        "consistency_score": 70,
+        "deep_sleep_pct": 11.8,
+        "light_sleep_pct": 61.0,
+        "rem_sleep_pct": 18.2,
+        "awakenings": 3,
+        "time_to_sleep_min": 26,
+        "flag": "fair"
+      },
+      "notes": "First major Tuesday spike - Fair sleep unable to buffer stressor"
+    },
+    {
+      "date": "Monday, October 27, 2025",
+      "day_of_week": "Monday",
+      "week": 3,
+      "hr": {"value": 63.0, "flag": "above_typical"},
+      "systolic": {"value": 128.0, "flag": "typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.5,
+        "quality_score": 68,
+        "consistency_score": 72,
+        "deep_sleep_pct": 12.0,
+        "light_sleep_pct": 60.5,
+        "rem_sleep_pct": 18.5,
+        "awakenings": 3,
+        "time_to_sleep_min": 24,
+        "flag": "fair"
+      },
+      "notes": "Sleep debt accumulating"
+    },
+    {
+      "date": "Sunday, October 26, 2025",
+      "day_of_week": "Sunday",
+      "week": 3,
+      "hr": {"value": 69.0, "flag": "anomalously_high"},
+      "systolic": {"value": 135.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 88.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 5.8,
+        "quality_score": 58,
+        "consistency_score": 68,
+        "deep_sleep_pct": 10.0,
+        "light_sleep_pct": 64.0,
+        "rem_sleep_pct": 16.5,
+        "awakenings": 5,
+        "time_to_sleep_min": 38,
+        "flag": "poor"
+      },
+      "notes": "WORST SLEEP (5.8h, quality 58) → HIGHEST HR/BP - Clear causation"
+    },
+    {
+      "date": "Saturday, October 25, 2025",
+      "day_of_week": "Saturday",
+      "week": 3,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 130.0, "flag": "above_typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 6.2,
+        "quality_score": 65,
+        "consistency_score": 75,
+        "deep_sleep_pct": 11.5,
+        "light_sleep_pct": 61.5,
+        "rem_sleep_pct": 18.0,
+        "awakenings": 4,
+        "time_to_sleep_min": 28,
+        "flag": "fair"
+      },
+      "notes": "Sleep disruption continuing - HR normal but BP elevated"
+    },
+    {
+      "date": "Friday, October 24, 2025",
+      "day_of_week": "Friday",
+      "week": 3,
+      "hr": {"value": 61.0, "flag": "typical"},
+      "systolic": {"value": 122.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.3,
+        "quality_score": 78,
+        "consistency_score": 82,
+        "deep_sleep_pct": 15.0,
+        "light_sleep_pct": 59.0,
+        "rem_sleep_pct": 21.0,
+        "awakenings": 2,
+        "time_to_sleep_min": 18,
+        "flag": "good"
+      },
+      "notes": "Last good sleep before disruption period"
+    },
+    {
+      "date": "Thursday, October 23, 2025",
+      "day_of_week": "Thursday",
+      "week": 3,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 126.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.8,
+        "quality_score": 83,
+        "consistency_score": 86,
+        "deep_sleep_pct": 16.5,
+        "light_sleep_pct": 57.5,
+        "rem_sleep_pct": 22.0,
+        "awakenings": 2,
+        "time_to_sleep_min": 15,
+        "flag": "good"
+      },
+      "notes": "Baseline period - good sleep, normal metrics"
+    },
+    {
+      "date": "Wednesday, October 22, 2025",
+      "day_of_week": "Wednesday",
+      "week": 3,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": 128.0, "flag": "typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.6,
+        "quality_score": 82,
+        "consistency_score": 88,
+        "deep_sleep_pct": 16.0,
+        "light_sleep_pct": 58.0,
+        "rem_sleep_pct": 21.5,
+        "awakenings": 2,
+        "time_to_sleep_min": 16,
+        "flag": "good"
+      },
+      "notes": "Baseline maintained"
+    },
+    {
+      "date": "Tuesday, October 21, 2025",
+      "day_of_week": "Tuesday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.5,
+        "quality_score": 80,
+        "consistency_score": 85,
+        "deep_sleep_pct": 15.5,
+        "light_sleep_pct": 58.5,
+        "rem_sleep_pct": 21.0,
+        "awakenings": 2,
+        "time_to_sleep_min": 17,
+        "flag": "good"
+      },
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Monday, October 20, 2025",
+      "day_of_week": "Monday",
+      "week": 2,
+      "hr": {"value": 59.0, "flag": "typical"},
+      "systolic": {"value": 120.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 8.0,
+        "quality_score": 86,
+        "consistency_score": 90,
+        "deep_sleep_pct": 17.5,
+        "light_sleep_pct": 56.5,
+        "rem_sleep_pct": 23.0,
+        "awakenings": 1,
+        "time_to_sleep_min": 12,
+        "flag": "excellent"
+      },
+      "notes": "Excellent sleep → optimal metrics"
+    },
+    {
+      "date": "Sunday, October 19, 2025",
+      "day_of_week": "Sunday",
+      "week": 2,
+      "hr": {"value": 59.0, "flag": "typical"},
+      "systolic": {"value": 124.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.8,
+        "quality_score": 84,
+        "consistency_score": 88,
+        "deep_sleep_pct": 17.0,
+        "light_sleep_pct": 57.0,
+        "rem_sleep_pct": 22.5,
+        "awakenings": 2,
+        "time_to_sleep_min": 14,
+        "flag": "good"
+      },
+      "notes": "Weekend - good recovery sleep"
+    },
+    {
+      "date": "Saturday, October 18, 2025",
+      "day_of_week": "Saturday",
+      "week": 2,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 127.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.7,
+        "quality_score": 83,
+        "consistency_score": 87,
+        "deep_sleep_pct": 16.5,
+        "light_sleep_pct": 57.5,
+        "rem_sleep_pct": 22.0,
+        "awakenings": 2,
+        "time_to_sleep_min": 15,
+        "flag": "good"
+      },
+      "notes": "Weekend baseline maintained"
+    },
+    {
+      "date": "Friday, October 17, 2025",
+      "day_of_week": "Friday",
+      "week": 2,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 119.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.5,
+        "quality_score": 81,
+        "consistency_score": 86,
+        "deep_sleep_pct": 15.8,
+        "light_sleep_pct": 58.0,
+        "rem_sleep_pct": 21.5,
+        "awakenings": 2,
+        "time_to_sleep_min": 16,
+        "flag": "good"
+      },
+      "notes": "Week 2 - stable baseline"
+    },
+    {
+      "date": "Thursday, October 16, 2025",
+      "day_of_week": "Thursday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.6,
+        "quality_score": 82,
+        "consistency_score": 87,
+        "deep_sleep_pct": 16.2,
+        "light_sleep_pct": 57.8,
+        "rem_sleep_pct": 21.8,
+        "awakenings": 2,
+        "time_to_sleep_min": 15,
+        "flag": "good"
+      },
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Wednesday, October 15, 2025",
+      "day_of_week": "Wednesday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.4,
+        "quality_score": 80,
+        "consistency_score": 85,
+        "deep_sleep_pct": 15.5,
+        "light_sleep_pct": 58.5,
+        "rem_sleep_pct": 21.2,
+        "awakenings": 2,
+        "time_to_sleep_min": 17,
+        "flag": "good"
+      },
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Tuesday, October 14, 2025",
+      "day_of_week": "Tuesday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.3,
+        "quality_score": 78,
+        "consistency_score": 84,
+        "deep_sleep_pct": 15.0,
+        "light_sleep_pct": 59.0,
+        "rem_sleep_pct": 21.0,
+        "awakenings": 2,
+        "time_to_sleep_min": 18,
+        "flag": "good"
+      },
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Monday, October 13, 2025",
+      "day_of_week": "Monday",
+      "week": 2,
+      "hr": {"value": 59.0, "flag": "typical"},
+      "systolic": {"value": 121.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.9,
+        "quality_score": 85,
+        "consistency_score": 89,
+        "deep_sleep_pct": 17.2,
+        "light_sleep_pct": 57.0,
+        "rem_sleep_pct": 22.8,
+        "awakenings": 1,
+        "time_to_sleep_min": 13,
+        "flag": "excellent"
+      },
+      "notes": "Week 2 begins - excellent recovery"
+    },
+    {
+      "date": "Sunday, October 12, 2025",
+      "day_of_week": "Sunday",
+      "week": 1,
+      "hr": {"value": 58.0, "flag": "typical"},
+      "systolic": {"value": 114.0, "flag": "below_typical"},
+      "diastolic": {"value": 81.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 8.2,
+        "quality_score": 88,
+        "consistency_score": 92,
+        "deep_sleep_pct": 18.0,
+        "light_sleep_pct": 56.0,
+        "rem_sleep_pct": 24.0,
+        "awakenings": 1,
+        "time_to_sleep_min": 10,
+        "flag": "excellent"
+      },
+      "notes": "Excellent sleep → optimal BP (114/81)"
+    },
+    {
+      "date": "Saturday, October 11, 2025",
+      "day_of_week": "Saturday",
+      "week": 1,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 124.0, "flag": "typical"},
+      "diastolic": {"value": 84.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.9,
+        "quality_score": 86,
+        "consistency_score": 90,
+        "deep_sleep_pct": 17.5,
+        "light_sleep_pct": 56.5,
+        "rem_sleep_pct": 23.5,
+        "awakenings": 1,
+        "time_to_sleep_min": 12,
+        "flag": "excellent"
+      },
+      "notes": "Weekend - excellent recovery sleep"
+    },
+    {
+      "date": "Friday, October 10, 2025",
+      "day_of_week": "Friday",
+      "week": 1,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 124.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.7,
+        "quality_score": 84,
+        "consistency_score": 89,
+        "deep_sleep_pct": 17.0,
+        "light_sleep_pct": 57.0,
+        "rem_sleep_pct": 22.5,
+        "awakenings": 2,
+        "time_to_sleep_min": 14,
+        "flag": "good"
+      },
+      "notes": "Week 1 - baseline establishment"
+    },
+    {
+      "date": "Thursday, October 9, 2025",
+      "day_of_week": "Thursday",
+      "week": 1,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 126.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.6,
+        "quality_score": 83,
+        "consistency_score": 88,
+        "deep_sleep_pct": 16.5,
+        "light_sleep_pct": 57.5,
+        "rem_sleep_pct": 22.0,
+        "awakenings": 2,
+        "time_to_sleep_min": 15,
+        "flag": "good"
+      },
+      "notes": "Week 1 - baseline establishment"
+    },
+    {
+      "date": "Wednesday, October 8, 2025",
+      "day_of_week": "Wednesday",
+      "week": 1,
+      "hr": {"value": 61.0, "flag": "typical"},
+      "systolic": {"value": 119.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "sleep_previous_night": {
+        "duration_hours": 7.8,
+        "quality_score": 85,
+        "consistency_score": 90,
+        "deep_sleep_pct": 17.2,
+        "light_sleep_pct": 57.0,
+        "rem_sleep_pct": 23.0,
+        "awakenings": 1,
+        "time_to_sleep_min": 13,
+        "flag": "excellent"
+      },
+      "notes": "Period begins - healthy baseline"
+    }
+  ],
+  "sleep_heart_correlations": {
+    "duration_hr_relationship": {
+      "under_6h": {"avg_next_day_hr": 66.5, "sample_size": 4},
+      "6_to_7h": {"avg_next_day_hr": 63.2, "sample_size": 6},
+      "7_to_8h": {"avg_next_day_hr": 60.1, "sample_size": 12},
+      "over_8h": {"avg_next_day_hr": 59.3, "sample_size": 3},
+      "correlation_strength": "strong negative",
+      "clinical_significance": "Sleep deprivation significantly elevates resting HR"
+    },
+    "quality_bp_relationship": {
+      "poor_under_60": {"avg_next_day_bp": "134/87", "sample_size": 3},
+      "fair_60_to_75": {"avg_next_day_bp": "129/85", "sample_size": 7},
+      "good_75_to_85": {"avg_next_day_bp": "124/83", "sample_size": 10},
+      "excellent_over_85": {"avg_next_day_bp": "121/82", "sample_size": 5},
+      "correlation_strength": "moderate negative",
+      "clinical_significance": "Poor sleep quality impairs nocturnal BP dipping"
+    },
+    "deep_sleep_recovery": {
+      "under_12_pct": {"cardiovascular_recovery": "poor", "next_day_elevation": "both HR and BP elevated"},
+      "12_to_15_pct": {"cardiovascular_recovery": "moderate", "next_day_elevation": "HR or BP elevated"},
+      "15_to_18_pct": {"cardiovascular_recovery": "good", "next_day_elevation": "near baseline"},
+      "over_18_pct": {"cardiovascular_recovery": "excellent", "next_day_elevation": "optimal baseline"},
+      "correlation_strength": "strong positive",
+      "clinical_significance": "Deep sleep is critical for cardiovascular system restoration"
+    },
+    "consistency_stability": {
+      "poor_under_60": {"metric_variability_sd": "5.2 bpm, 8.4 mmHg"},
+      "fair_60_to_75": {"metric_variability_sd": "3.8 bpm, 6.1 mmHg"},
+      "good_75_to_90": {"metric_variability_sd": "2.1 bpm, 3.2 mmHg"},
+      "excellent_over_90": {"metric_variability_sd": "1.3 bpm, 2.1 mmHg"},
+      "correlation_strength": "strong positive",
+      "clinical_significance": "Sleep schedule consistency stabilizes autonomic function"
+    }
+  },
+  "pattern_insights": {
+    "key_patterns": [
+      {
+        "pattern_type": "Sleep-HR Causation",
+        "description": "Poor sleep directly elevates next-day heart rate",
+        "evidence": [
+          "Oct 26: 5.8h sleep, quality 58 → HR 69 (highest)",
+          "Nov 4: 6.0h sleep, quality 62 → HR 68 (second highest)",
+          "Oct 20: 8.0h sleep, quality 86 → HR 59 (optimal)"
+        ],
+        "mechanism": "Sleep deprivation → sympathetic activation → elevated resting HR",
+        "significance": "Sleep is primary driver of HR elevation, not just correlation"
+      },
+      {
+        "pattern_type": "Weekend Recovery Failure",
+        "description": "Late-period weekends show inadequate recovery despite duration",
+        "evidence": [
+          "Oct 11-12: 7.9-8.2h, quality 86-88 → Next week HR 59-60",
+          "Nov 1-2: 7.8h, quality 68-70 → Metrics remain elevated (HR 62-63, BP 135-136)"
+        ],
+        "mechanism": "Duration alone insufficient; quality determines recovery",
+        "significance": "Teaches quality > quantity principle"
+      },
+      {
+        "pattern_type": "Tuesday Amplification",
+        "description": "Poor sleep amplifies Tuesday stressor response",
+        "evidence": [
+          "Oct 28: 6.5h sleep, quality 68 + Tuesday stressor → HR 64, BP 135/87",
+          "Nov 4: 6.0h sleep, quality 62 + Tuesday stressor → HR 68, BP 134/87"
+        ],
+        "mechanism": "Sleep debt reduces stress resilience",
+        "significance": "Sleep debt makes individual more vulnerable to stressors"
+      },
+      {
+        "pattern_type": "Deep Sleep Threshold",
+        "description": "Deep sleep <12% prevents cardiovascular recovery",
+        "evidence": [
+          "Days with deep sleep <12%: Next day shows elevated HR/BP",
+          "Days with deep sleep >15%: Next day returns to baseline",
+          "Oct 26: 10% deep sleep → HR 69, BP 135/88",
+          "Oct 12: 18% deep sleep → HR 58, BP 114/81"
+        ],
+        "mechanism": "Deep sleep = physical restoration phase",
+        "significance": "Specific sleep phase critical for heart recovery"
+      },
+      {
+        "pattern_type": "Chronic Sleep Debt",
+        "description": "Sustained sleep insufficiency perpetuates stress response",
+        "evidence": [
+          "Week 1-2 avg: 7.7h sleep → avg HR 59.5 bpm",
+          "Week 3-4 avg: 6.5h sleep → avg HR 64.2 bpm (+4.7 bpm)",
+          "Sleep debt accumulation: -1.2h per night × 14 days = 16.8h total deficit"
+        ],
+        "mechanism": "Sleep debt accumulates, preventing full recovery",
+        "significance": "Demonstrates chronicity and need for intervention"
+      }
+    ],
+    "trending": {
+      "sleep_duration": "declining",
+      "sleep_quality": "declining",
+      "sleep_consistency": "deteriorating",
+      "cardiovascular_impact": "worsening",
+      "reversibility": "high with sleep intervention"
+    }
+  },
+  "summary_statistics": {
+    "full_period": {
+      "hr_avg": 61.8,
+      "hr_min": 58.0,
+      "hr_max": 69.0,
+      "systolic_avg": 126.4,
+      "diastolic_avg": 83.8,
+      "afib_total": 0.0,
+      "sleep_duration_avg": 7.2,
+      "sleep_quality_avg": 75.8,
+      "sleep_consistency_avg": 79.2,
+      "deep_sleep_avg": 14.2
+    },
+    "week_1_2_baseline": {
+      "hr_avg": 59.5,
+      "systolic_avg": 121.2,
+      "diastolic_avg": 82.3,
+      "sleep_duration_avg": 7.7,
+      "sleep_quality_avg": 83.1,
+      "sleep_consistency_avg": 87.6,
+      "deep_sleep_avg": 16.4
+    },
+    "week_3_4_stress": {
+      "hr_avg": 64.2,
+      "systolic_avg": 131.8,
+      "diastolic_avg": 85.9,
+      "sleep_duration_avg": 6.5,
+      "sleep_quality_avg": 66.2,
+      "sleep_consistency_avg": 66.8,
+      "deep_sleep_avg": 11.4
+    },
+    "delta_early_vs_late": {
+      "hr_change": "+4.7 bpm",
+      "systolic_change": "+10.6 mmHg",
+      "diastolic_change": "+3.6 mmHg",
+      "sleep_duration_change": "-1.2 hours",
+      "sleep_quality_change": "-16.9 points",
+      "sleep_consistency_change": "-20.8 points",
+      "deep_sleep_change": "-5.0 percentage points"
+    }
+  },
+  "clinical_interpretation": {
+    "primary_diagnosis": "Stress-induced cardiovascular elevation with sleep disruption as primary mechanism",
+    "severity": "Moderate (Stage 1 Hypertension, HR elevated but within clinical normal)",
+    "acuity": "Subacute to chronic (3+ weeks duration)",
+    "reversibility": "High - lifestyle-responsive condition",
+    "intervention_priority": [
+      "1. Sleep restoration (duration, quality, consistency)",
+      "2. Stress management (identify Tuesday trigger)",
+      "3. Lifestyle modification (exercise, diet, relaxation)",
+      "4. Monitoring (track response to interventions)"
+    ],
+    "prognosis": "Excellent with intervention; concerning if pattern persists"
+  }
+}

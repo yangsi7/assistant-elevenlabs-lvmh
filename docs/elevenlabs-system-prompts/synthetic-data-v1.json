@@ -1,0 +1,417 @@
+{
+  "report_metadata": {
+    "generation_date": "Tuesday, November 4, 2025",
+    "period_start": "Wednesday, October 8, 2025",
+    "period_end": "Tuesday, November 4, 2025",
+    "user_profile": {
+      "age": 45,
+      "baseline_fitness": "good",
+      "typical_hr_range": "60-62 bpm",
+      "typical_bp_range": "122-128/82-85 mmHg"
+    }
+  },
+  "personal_range_analysis": {
+    "today": "Tuesday, November 4, 2025",
+    "metrics": {
+      "heart_rate": {
+        "today": 68.0,
+        "typical_q1_q3": "60.0-62.0",
+        "category": "anomalously_high",
+        "delta_vs_yesterday": 6.0,
+        "delta_vs_avg": 5.1,
+        "clinical_range": "60-100 bpm (normal)",
+        "personal_significance": "8 bpm above personal baseline - indicates stress response"
+      },
+      "systolic_bp": {
+        "today": 134.0,
+        "typical_q1_q3": "122.0-128.0",
+        "category": "above_typical",
+        "delta_vs_avg": 4.1,
+        "clinical_range": "Stage 1 Hypertension (130-139 mmHg)",
+        "personal_significance": "6-12 mmHg above typical range"
+      },
+      "diastolic_bp": {
+        "today": 87.0,
+        "typical_q1_q3": "82.0-85.0",
+        "category": "above_typical",
+        "delta_vs_avg": 1.4,
+        "clinical_range": "Stage 1 Hypertension (80-89 mmHg)",
+        "personal_significance": "2-5 mmHg above typical range"
+      },
+      "afib_burden": {
+        "today": 0.0,
+        "typical_q1_q3": "0.0-0.0",
+        "category": "typical",
+        "delta_vs_yesterday": 0.0,
+        "delta_vs_avg": 0.0,
+        "clinical_significance": "Zero AFib burden - excellent cardiac rhythm"
+      }
+    }
+  },
+  "daily_data": [
+    {
+      "date": "Tuesday, November 4, 2025",
+      "day_of_week": "Tuesday",
+      "week": 4,
+      "hr": {"value": 68.0, "flag": "anomalously_high"},
+      "systolic": {"value": 134.0, "flag": "above_typical"},
+      "diastolic": {"value": 87.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Current day - Tuesday pattern recurring, sustained elevation"
+    },
+    {
+      "date": "Monday, November 3, 2025",
+      "day_of_week": "Monday",
+      "week": 4,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Monday - HR returning to upper baseline"
+    },
+    {
+      "date": "Sunday, November 2, 2025",
+      "day_of_week": "Sunday",
+      "week": 4,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": 136.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 88.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Weekend - BP remains elevated (no recovery)"
+    },
+    {
+      "date": "Saturday, November 1, 2025",
+      "day_of_week": "Saturday",
+      "week": 4,
+      "hr": {"value": 63.0, "flag": "above_typical"},
+      "systolic": {"value": 135.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 87.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Weekend - sustained elevation pattern"
+    },
+    {
+      "date": "Friday, October 31, 2025",
+      "day_of_week": "Friday",
+      "week": 4,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": 128.0, "flag": "typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "End of work week - metrics normalizing"
+    },
+    {
+      "date": "Thursday, October 30, 2025",
+      "day_of_week": "Thursday",
+      "week": 4,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Wednesday, October 29, 2025",
+      "day_of_week": "Wednesday",
+      "week": 4,
+      "hr": {"value": 63.0, "flag": "above_typical"},
+      "systolic": {"value": 126.0, "flag": "typical"},
+      "diastolic": {"value": 84.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Mid-week elevation pattern"
+    },
+    {
+      "date": "Tuesday, October 28, 2025",
+      "day_of_week": "Tuesday",
+      "week": 3,
+      "hr": {"value": 64.0, "flag": "above_typical"},
+      "systolic": {"value": 135.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 87.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Tuesday pattern - first major spike, potential stressor"
+    },
+    {
+      "date": "Monday, October 27, 2025",
+      "day_of_week": "Monday",
+      "week": 3,
+      "hr": {"value": 63.0, "flag": "above_typical"},
+      "systolic": {"value": 128.0, "flag": "typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 3 begins - slight elevation"
+    },
+    {
+      "date": "Sunday, October 26, 2025",
+      "day_of_week": "Sunday",
+      "week": 3,
+      "hr": {"value": 69.0, "flag": "anomalously_high"},
+      "systolic": {"value": 135.0, "flag": "anomalously_high"},
+      "diastolic": {"value": 88.0, "flag": "above_typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Highest HR recorded - peak stress response"
+    },
+    {
+      "date": "Saturday, October 25, 2025",
+      "day_of_week": "Saturday",
+      "week": 3,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 130.0, "flag": "above_typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Weekend - HR normal but BP elevated"
+    },
+    {
+      "date": "Friday, October 24, 2025",
+      "day_of_week": "Friday",
+      "week": 3,
+      "hr": {"value": 61.0, "flag": "typical"},
+      "systolic": {"value": 122.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "End of Week 3 - baseline maintained"
+    },
+    {
+      "date": "Thursday, October 23, 2025",
+      "day_of_week": "Thursday",
+      "week": 3,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 126.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Pre-stress period - normal readings"
+    },
+    {
+      "date": "Wednesday, October 22, 2025",
+      "day_of_week": "Wednesday",
+      "week": 3,
+      "hr": {"value": 62.0, "flag": "typical"},
+      "systolic": {"value": 128.0, "flag": "typical"},
+      "diastolic": {"value": 85.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 3 baseline"
+    },
+    {
+      "date": "Tuesday, October 21, 2025",
+      "day_of_week": "Tuesday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Monday, October 20, 2025",
+      "day_of_week": "Monday",
+      "week": 2,
+      "hr": {"value": 59.0, "flag": "typical"},
+      "systolic": {"value": 120.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 2 - optimal readings"
+    },
+    {
+      "date": "Sunday, October 19, 2025",
+      "day_of_week": "Sunday",
+      "week": 2,
+      "hr": {"value": 59.0, "flag": "typical"},
+      "systolic": {"value": 124.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Weekend baseline - healthy"
+    },
+    {
+      "date": "Saturday, October 18, 2025",
+      "day_of_week": "Saturday",
+      "week": 2,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 127.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Weekend - normal baseline"
+    },
+    {
+      "date": "Friday, October 17, 2025",
+      "day_of_week": "Friday",
+      "week": 2,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 119.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "End of Week 2 - excellent readings"
+    },
+    {
+      "date": "Thursday, October 16, 2025",
+      "day_of_week": "Thursday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Wednesday, October 15, 2025",
+      "day_of_week": "Wednesday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Tuesday, October 14, 2025",
+      "day_of_week": "Tuesday",
+      "week": 2,
+      "hr": {"value": null, "flag": null},
+      "systolic": {"value": null, "flag": null},
+      "diastolic": {"value": null, "flag": null},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Missing HR/BP data"
+    },
+    {
+      "date": "Monday, October 13, 2025",
+      "day_of_week": "Monday",
+      "week": 2,
+      "hr": {"value": 59.0, "flag": "typical"},
+      "systolic": {"value": 121.0, "flag": "typical"},
+      "diastolic": {"value": 83.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 2 begins - baseline normal"
+    },
+    {
+      "date": "Sunday, October 12, 2025",
+      "day_of_week": "Sunday",
+      "week": 1,
+      "hr": {"value": 58.0, "flag": "typical"},
+      "systolic": {"value": 114.0, "flag": "below_typical"},
+      "diastolic": {"value": 81.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 1 weekend - optimal BP"
+    },
+    {
+      "date": "Saturday, October 11, 2025",
+      "day_of_week": "Saturday",
+      "week": 1,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 124.0, "flag": "typical"},
+      "diastolic": {"value": 84.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 1 weekend - baseline"
+    },
+    {
+      "date": "Friday, October 10, 2025",
+      "day_of_week": "Friday",
+      "week": 1,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 124.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 1 - baseline establishment"
+    },
+    {
+      "date": "Thursday, October 9, 2025",
+      "day_of_week": "Thursday",
+      "week": 1,
+      "hr": {"value": 60.0, "flag": "typical"},
+      "systolic": {"value": 126.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Week 1 - baseline establishment"
+    },
+    {
+      "date": "Wednesday, October 8, 2025",
+      "day_of_week": "Wednesday",
+      "week": 1,
+      "hr": {"value": 61.0, "flag": "typical"},
+      "systolic": {"value": 119.0, "flag": "typical"},
+      "diastolic": {"value": 82.0, "flag": "typical"},
+      "afib": {"value": 0.0, "flag": "typical"},
+      "notes": "Period begins - baseline establishment"
+    }
+  ],
+  "pattern_insights": {
+    "key_patterns": [
+      {
+        "pattern_type": "Tuesday Spike",
+        "description": "Consistent elevation on Tuesdays",
+        "evidence": [
+          "Oct 28: HR 64, BP 135/87",
+          "Nov 4: HR 68, BP 134/87"
+        ],
+        "hypothesis": "Weekly recurring stressor (meeting, deadline, or work demand)",
+        "significance": "Suggests identifiable, modifiable trigger"
+      },
+      {
+        "pattern_type": "Mid-October Inflection",
+        "description": "Clear shift from baseline starting Week 3",
+        "evidence": [
+          "Week 1-2 avg HR: 59.5 bpm",
+          "Week 3-4 avg HR: 64.2 bpm",
+          "Week 1-2 avg BP: 121/82",
+          "Week 4 avg BP: 132/86"
+        ],
+        "hypothesis": "Acute stressor mid-October (work project, personal event) triggering sustained response",
+        "significance": "Marks transition from healthy baseline to stress pattern"
+      },
+      {
+        "pattern_type": "Weekend Non-Recovery",
+        "description": "Late-period weekends show sustained elevation",
+        "evidence": [
+          "Early weekends (Oct 11-18): Normal recovery",
+          "Late weekends (Nov 1-2): Sustained elevation (BP 135-136/87-88)"
+        ],
+        "hypothesis": "Acute stress has become chronic, preventing weekend recovery",
+        "significance": "Indicates maladaptive stress response requiring intervention"
+      },
+      {
+        "pattern_type": "HR-BP Correlation",
+        "description": "Strong positive correlation between heart rate and blood pressure",
+        "evidence": [
+          "Highest HR days (Oct 26: 69 bpm, Nov 4: 68 bpm) align with highest BP (135-136/87-88)",
+          "Normal HR days show normal BP"
+        ],
+        "hypothesis": "Sympathetic nervous system activation driving both metrics",
+        "significance": "Confirms stress response mechanism rather than independent issues"
+      },
+      {
+        "pattern_type": "Zero AFib Burden",
+        "description": "No atrial fibrillation detected throughout 28 days",
+        "evidence": ["Consistent 0% AFib burden all days"],
+        "hypothesis": "Healthy cardiac electrical system",
+        "significance": "Positive indicator - stress affecting hemodynamics but not rhythm"
+      }
+    ],
+    "trending": {
+      "direction": "worsening",
+      "velocity": "moderate",
+      "stability": "unstable",
+      "reversibility": "high"
+    }
+  },
+  "summary_statistics": {
+    "full_period": {
+      "hr_avg": 61.8,
+      "hr_min": 58.0,
+      "hr_max": 69.0,
+      "systolic_avg": 126.4,
+      "diastolic_avg": 83.8,
+      "afib_total": 0.0
+    },
+    "week_1_2": {
+      "hr_avg": 59.5,
+      "systolic_avg": 121.2,
+      "diastolic_avg": 82.3
+    },
+    "week_3_4": {
+      "hr_avg": 64.2,
+      "systolic_avg": 131.8,
+      "diastolic_avg": 85.9
+    },
+    "delta_early_vs_late": {
+      "hr_change": "+4.7 bpm",
+      "systolic_change": "+10.6 mmHg",
+      "diastolic_change": "+3.6 mmHg"
+    }
+  }
+}

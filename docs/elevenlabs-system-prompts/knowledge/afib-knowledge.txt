@@ -1,0 +1,217 @@
+FIB & HEART HEALTH – KNOWLEDGE DOC 1
+
+## 1. High-Level Aim of the Knowledge Base
+
+- **Primary Goal**: Enable an AI-driven interface to interpret heart data (AFib burden, heart rate, pauses, AV blocks), provide insights, and give general lifestyle recommendations.
+
+## 2. Core Medical Knowledge
+
+### 2.1 Cardiovascular Basics
+
+- **Heart Function**: The heart pumps via an electrical conduction system (SA node → AV node → ventricles).
+
+- **Key Terms**:
+
+- **Heart Rate (HR)**: Beats per minute (normal ~60–100 bpm resting).
+
+- **Blood Pressure**: ~120/80 mmHg is typical normal. Hypertension influences arrhythmias and heart strain.
+
+- **Arrhythmias**: Irregular rhythms. Some benign (extra beats); others serious (AFib, AV block).
+
+### 2.2 Atrial Fibrillation (AFib)
+
+- **Definition**: Irregularly irregular atrial rhythm, can be paroxysmal, persistent, or permanent.
+
+- **Stroke Risk**: Up to 5x higher for AFib patients. May need anticoagulation depending on risk scores.
+
+- **Burden**: % time in AFib. Even short episodes can matter. High burden often indicates advanced disease.
+
+- **Management**: Rate control (HR < ~110 at rest) or rhythm control (try to convert to sinus). Lifestyle changes help (exercise, weight management, reduce alcohol).
+
+### 2.3 AV Blocks
+
+- **First-Degree**: Prolonged PR interval; usually asymptomatic.
+
+- **Second-Degree**:
+
+- Mobitz I (Wenckebach): Progressive PR lengthening → dropped beat; can be benign.
+
+- Mobitz II: Sudden dropped beats, no progressive PR; more serious, often requires pacemaker.
+
+- **Third-Degree (Complete)**: No atrial impulses pass to ventricles; usually needs pacemaker.
+
+### 2.4 Pauses
+
+- Pauses >3s can cause symptoms (dizziness, syncope). Frequent or symptomatic → evaluation.
+
+### 2.5 Lifestyle & Preventive Medicine
+
+- **Diet**: Emphasize fruits, veggies, whole grains, lean protein. Limit sodium <2,300 mg/day if possible.
+
+- **Exercise**: Aim for 150 mins/week moderate-intensity; helps control weight, BP, stress.
+
+- **Stress Management**: Techniques like meditation, breathing exercises. Stress can trigger arrhythmias.
+
+- **Sleep**: 7–9 hours; screen for sleep apnea if suspected (snoring, daytime fatigue).
+
+- **Avoid/Limit**: Smoking, excess alcohol, too much caffeine, as these can worsen arrhythmias.
+
+- **Red Flags**: Chest pain, fainting, extreme shortness of breath → urgent care.
+
+### 2.6 Disclaimers
+
+- This knowledge is for educational purposes, not a replacement for professional evaluation.
+
+- Always consult a qualified provider for diagnosis and treatment decisions.
+
+## 3. Device & Data Interpretation
+
+### 3.1 Wearable Basics
+
+- **ECG-based**: More accurate for arrhythmia detection (AFib, AV block).
+
+- **PPG-based**: Susceptible to motion artifacts, but still can detect HR/irregularities.
+
+### 3.2 Key Metrics
+
+- **AFib Burden**: 0% = none, 1–5% = low, 5–20% = moderate, >20% = higher.
+
+- **HR Averages**: Normal 60–100 at rest. Above 100 or below 50 may be an issue if symptomatic.
+
+- **Pauses**: Usually 0 if >3s. More than occasional can be serious.
+
+- **AV Blocks**: Should not appear in a healthy conduction system (other than possibly mild Wenckebach in some contexts).
+
+### 3.3 Personalized Guidance
+
+- Link user’s data trends to possible lifestyle modifications.
+
+- Encourage consistent device usage (daily wear, correct fit) to capture accurate data.
+
+## 4. FAQ
+
+**Q: What if my AFib burden is high?**
+
+A: Talk to your doctor about adjusting meds or lifestyle. Weight reduction and exercise often help.
+
+**Q: Does 1st-degree AV block require treatment?**
+
+A: Usually not, if asymptomatic. Just monitor.
+
+**Q: How do I handle bradycardia?**
+
+A: If under 50 bpm at rest and you feel dizzy/tired, see a doctor.
+
+**Q: Are pauses during sleep normal?**
+
+A: Minor sinus arrhythmia can be normal; but repeated ≥3s pauses can be clinically significant.
+
+---
+# AFIB & HEART HEALTH – KNOWLEDGE DOC 2
+
+## 1. Voice Assistant Purpose
+
+- Provide user-friendly, spoken or text-based explanations of heart data, lifestyle tips, and general red flags.
+
+- Act as an educational companion, not a diagnosing physician.
+
+## 2. Expanded Arrhythmia & AFib Deep-Dive
+
+- **AFib Types**:
+
+- Paroxysmal (<7 days), Persistent (>7 days or needs cardioversion), Permanent (long-term acceptance of AFib).
+
+- **Stroke Prevention**: CHA₂DS₂-VASc score often used. Even low-burden AFib can require anticoagulants if risk factors are present.
+
+- **Treatment Approaches**:
+
+- Rate control (beta blockers, calcium channel blockers).
+
+- Rhythm control (antiarrhythmics, ablation).
+
+- Lifestyle changes (diet, activity, weight loss, address sleep apnea).
+
+## 3. Common Metrics & Norms
+
+1. **Daily HR (Avg, Max, Min)**:
+
+- Normal resting average ~60–100 bpm.
+
+- Max HR during exercise ~220 – age (rough guide).
+
+- Bradycardia <60 if symptomatic; Tachycardia >100 at rest if sustained can be a warning sign.
+
+2. **AFib Burden (%)**:
+
+- 0% = No AFib that day.
+
+- 1–5% = Low burden.
+
+- 5–20% = Moderate.
+
+- >20% = High.
+
+- The higher the burden, the more likely symptoms or complications.
+
+3. **Pauses**:
+
+- >3s can cause dizziness or fainting.
+
+- Could indicate sick sinus syndrome or advanced AV block.
+
+4. **AV Block**:
+
+- 2nd-degree Mobitz II and 3rd-degree typically require pacemaker evaluation.
+
+## 4. Lifestyle & Prevention – Additional Details
+
+- **Diet**:
+
+- Focus on whole foods: vegetables, fruits, whole grains, lean meats/fish, nuts.
+
+- Limit saturated & trans fats, reduce sodium to <2,300 mg/day.
+
+- Watch added sugars, especially in beverages.
+
+- **Physical Activity**:
+
+- At least 150 minutes moderate aerobic exercise/week or 75 minutes vigorous.
+
+- Include strength training ~2 days/week.
+
+- Even daily walks help keep HR/blood pressure under better control.
+
+- **Stress & Sleep**:
+
+- Use meditation, yoga, or breathing exercises to reduce stress hormones that can trigger arrhythmias.
+
+- Aim for 7–9 hours of sleep. Poor sleep or sleep apnea can exacerbate AFib.
+
+- **Smoking & Alcohol**:
+
+- Smoking damages arteries, raises BP, can worsen arrhythmias.
+
+- Alcohol can trigger AFib episodes (“holiday heart syndrome”). Moderation or avoidance recommended.
+
+- **Symptoms to Watch**:
+
+- Palpitations, feeling of irregular or racing heartbeat.
+
+- Chest pain or pressure, shortness of breath, fainting/dizziness.
+
+- If severe or persistent, seek medical advice.
+
+## 5. Troubleshooting & FAQ
+
+- **Missing Data**: Check device battery, ensure sensor contact.
+
+- **Accuracy**: ECG-based monitors are typically more reliable for arrhythmias. PPG can be thrown off by movement.
+
+- **Medication Adjustments**: Must be done by a healthcare provider. The assistant only gives general info.
+
+## 6. Disclaimer
+
+- All information is for educational purposes only and does not replace medical advice from a qualified professional.
+
+- If you experience concerning symptoms or abnormal readings, contact your healthcare provider promptly.
+

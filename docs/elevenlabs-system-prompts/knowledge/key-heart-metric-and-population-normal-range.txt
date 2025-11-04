@@ -1,0 +1,95 @@
+ummary: Key Heart Metrics & Normal Ranges**
+
+---
+
+### 1. **Daily Heart Rate**
+
+- **Resting HR (RHR):** ~60–100 bpm for healthy adults. <60 can be normal for athletes. >100 is tachycardic.
+
+- *General Population Avg:* ~70–80 bpm
+
+- *Interpretation:* Lower RHR (50–60 bpm) often implies better fitness. Persistent elevation (>100) or consistently low (<40) may need evaluation.
+
+- **Maximum HR:** Typically **220 – age** during max exertion.
+
+- *Interpretation:* Spikes during daily routine (e.g., >150 bpm without exercise) can indicate stress/anxiety or arrhythmia.
+
+- **Minimum HR:** ~50–60 bpm (often during sleep).
+
+- *Interpretation:* <40 bpm (unless athletic) could suggest bradycardia or conduction issue.
+
+---
+
+### 2. **Atrial Fibrillation (AFib) Metrics**
+
+- **AFib Burden (% of day in AFib):**
+
+- *Normal (No AFib):* 0%
+
+- *Low Burden:* <1–5%
+
+- *Moderate:* 5–50%
+
+- *High:* >50% (often persistent/permanent)
+
+- **Longest AFib Event:**
+
+- *Normal:* 0 if no AFib. Any episode >30s is clinically relevant. >48h increases stroke risk.
+
+- **Highest HR in AFib:**
+
+- *Controlled AFib:* <110 bpm at rest.
+
+- *Rapid AFib:* >140–150 bpm at rest can cause symptoms.
+
+---
+
+### 3. **AV (Atrioventricular) Block**
+
+- **First-Degree:** Prolonged PR (>200ms) but no missed beats; often no symptoms.
+
+- **Second-Degree:** Some atrial beats not conducted;
+
+- *Mobitz I (Wenckebach):* May be benign.
+
+- *Mobitz II:* More serious; often pacemaker needed.
+
+- **Third-Degree:** Complete dissociation between atria & ventricles; definite pacemaker indication.
+
+---
+
+### 4. **Pauses > 3 Seconds**
+
+- *Normal:* 0 while awake; rare or none >3s during sleep.
+
+- *Frequent/Prolonged Pauses:* Suggest sick sinus or advanced AV block; can cause dizziness/syncope.
+
+---
+
+### 5. **Symptom Relevance**
+
+- **Palpitations, Dizziness, Chest Pain, Fainting** → Evaluate.
+
+- **Bradycardia (<40 bpm) + Symptoms** → Possible conduction issue.
+
+- **Tachycardia (>100 bpm rest)** → Could be AFib, SVT, or stress.
+
+- **AFib + High HR** → Risk for complications (stroke, heart failure).
+
+- **Pauses** → Syncope risk if frequent.
+
+---
+
+### 6. **Comparisons to General Population Norms**
+
+- **Resting HR:** Most adults ~70–80 bpm; athletes may be lower.
+
+- **AFib:** Affects ~1–2% overall, increasing with age (~>10% in 80+); 0% burden is “normal.”
+
+- **AV Block:** 1st-degree common with age/meds; 2nd/3rd-degree less common, but serious.
+
+- **Pauses:** Rare in healthy individuals, mostly 0. Small % of healthy people might have occasional 2s pause in sleep, but >3s is unusual.
+
+---
+
+**Note:** Any concerning trends (e.g., steadily rising resting HR, large AFib burden, second-degree or higher AV block, frequent pauses) should prompt medical consultation.
